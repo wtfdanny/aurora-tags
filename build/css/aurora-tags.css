@@ -1,0 +1,48 @@
+/*! aurora-tags v0.0.1 | (c) 2020 Danny Bowen | MIT License | https://github.com/wtfdanny/aurora-tags.git */
+
+.simple-tags {
+  border: 1px solid #72D2A4;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 0em 0.5em;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.6rem;
+  border-radius: 5px; }
+  .simple-tags > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap; }
+  .simple-tags ul li {
+    margin: 0.5em 0.2em;
+    padding: 0.3em 0.5em 0.2em 0.5em;
+    color: #fff;
+    background-color: #72D2A4;
+    border-color: #5fb98e;
+    border-width: 1px;
+    border-style: solid;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: bold;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    cursor: pointer; }
+  .simple-tags ul li a {
+    margin: 0.5em 0.2em;
+    text-decoration: none;
+    color: inherit; }
+  .simple-tags input {
+    padding: 0.9em 0.5em;
+    box-sizing: border-box;
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+    text-transform: uppercase;
+    font-weight: bold; }

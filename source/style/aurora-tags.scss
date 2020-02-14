@@ -1,0 +1,57 @@
+$primary-color : #72D2A4;
+$primary-border-color: rgb(95, 185, 142);
+
+
+
+.simple-tags {
+	border: 1px solid $primary-color;
+	box-sizing: border-box;
+	margin: 1em;
+	padding: 0em 0.5em;
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 0.6rem;
+	border-radius: 5px;
+
+	&>ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	ul li {
+		margin: 0.5em 0.2em;
+		padding: 0.3em 0.5em 0.2em 0.5em;
+		color: #fff;
+		background-color: $primary-color;
+		border-color: $primary-border-color;
+		border-width: 1px;
+		border-style: solid;
+		text-transform: uppercase;
+		border-radius: 4px;
+		font-weight: bold;
+		user-select: none;
+		cursor: pointer;
+	}
+
+	ul li a {
+		margin: 0.5em 0.2em;
+		text-decoration: none;
+		color: inherit;
+	}
+
+	input {
+		padding: 0.9em 0.5em;
+		box-sizing: border-box;
+		flex-grow: 1;
+		border: none;
+		outline: none;
+		font-size: inherit;
+		font-family: inherit;
+		color: inherit;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+}
